@@ -7,6 +7,7 @@ int main() {
     int area1, populacao1, numeroPontosTuristicos1;
     char nomeC[20];
     char nomeC1[20];
+    int cartavencedora, superpoder;
     
     float pib, densiPop, PIBPercap;
     float pib1, densiPop1, PIBPercap1;
@@ -27,7 +28,7 @@ int main() {
     printf ("Digite o numero de pontos turisticos: \n");
     scanf ("%d", &numeroPontosTuristicos);
 
-
+    //informaçoes da carta 2
     printf ("Digite o nome da segunda cidade: \n");
     scanf ("%s", &nomeC1);
 
@@ -46,7 +47,7 @@ int main() {
 
     densiPop = (float) populacao / area;
     PIBPercap = (float) pib / populacao;
-
+    // carta 2
     densiPop1 = (float) populacao1 / area1;
     PIBPercap1 = (float) pib1 / populacao1;
 
@@ -62,6 +63,7 @@ int main() {
     printf ("Densidade populacional: %.2f\n", densiPop);
     printf ("PIB per capta: %.2f\n", PIBPercap);
     
+    // carta 2
     printf ("*** Informações da carta 2 ***\n");
     printf ("Nome da cidade: %s\n", nomeC1);
     printf ("Populção: %d\n", populacao1);
@@ -71,7 +73,8 @@ int main() {
     printf ("Densidade populacional: %.2f\n", densiPop1);
     printf ("PIB per capta: %.2f\n", PIBPercap1);
     printf ("*** Super Trunfo ***\n");
-
-
+    
+    cartavencedora = 
+    printf ("a carta vencedora é: ")
     return 0;
 }
